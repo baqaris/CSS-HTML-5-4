@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.WholeCont {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+
+}
+
+/* !!!!!!! HEADER !!!!!!! */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1EBFF;
+    padding: 20px 0px;
+}
+
+ul,
+a {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    text-decoration: none;
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.AncorBlue {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+ul a:hover {
+    color: #40D;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* !!!!!!! MAIN !!!!!!! */
+
+.MainCont {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.searchCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1040px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.instruction {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 24px 8px 12px;
+    background: #F1EBFF;
+    border-radius: 16px;
+
+}
+
+.SearchIcon:hover{
+    width: 75px;
+    background: green;
+}
+
+
+.SearchIcon {
+    display: flex;
+    cursor: pointer;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #40D;
+}
+
+/*!!!!! HOUSE !!!!!! */
+.desCriptionCont {
+    display: flex;
+    width: 1040px;
+    align-items: center;
+    gap: 48px;
+}
+
+.desCriptionCont p {
+    color: #5E6577;
+    text-align: right;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+/* !!!!!! Sall Text div 1!!!!*/
+.DisplayText {
+    display: flex;
+    width: 1040px;
+    border-bottom: 1px solid #CCD3E0;
+    height: 48px;
+    gap: 24px;
+}
+
+.DisplayText p {
+    display: flex;
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.textConte2 p {
+    display: flex;
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/*!!!!!!! diferent colors box !!!!!! */
+.BoxcolorCont {
+    display: flex;
+    width: 1040px;
+    height: 266px;
+
+    border-top: 2px solid #8CE900;
+    border-right: 2px solid #155EEF;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000;
+
+    padding: 18px;
+}
+
+
+.Textsimple p {
+    width: 488px;
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.TexsteSimple2 p {
+    color: #969696;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*!!!!!!! blue color box USA !!!!!! */
+
+.TextandBackg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1040px;
+    height: 272px;
+    border-radius: 8px;
+    background-color: #EDE6FC;
+    border: 1px solid #40D;
+    padding: 16px 24px;
+    gap: 16px;
+}
+
+.BIGtext {
+    display: flex;
+    width: 488px;
+    color: #3B3B3B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.TextUSa {
+    display: flex;
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+/*!!!!!!! Clink78 Hostel (London, UK) !!!!!! */
+
+.Texttricks {
+    display: flex;
+    width: 1040px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+}
+
+.textEnd {
+    display: flex;
+    width: 488px;
+    color: #07081A;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.bigTextend {
+    display: flex;
+    width: 488px;
+    color: #155EEF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/*!!!!!!!!! FOOTER !!!!!!*/
+.FooterCont{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #F1EBFF;
+    padding: 40px 200px 0px 928px;
+}
+
+.footerIcons{
+    display: flex;
+    gap:25px;
+    justify-content: flex-end;
+    align-items: center;
+}
